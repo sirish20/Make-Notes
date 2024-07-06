@@ -1,8 +1,10 @@
-# Make Notes Chrome Extension
+# Make Notes (Chrome Extension)
 
 ## Overview
 
 **Make Notes** is a Chrome extension that allows users to create, manage, and delete notes directly within their browser. This extension is designed to be user-friendly and efficient, providing persistent storage and a responsive interface.
+
+![Screenshot of Make Notes](images/Screenshot(130).png)
 
 ## Features
 
