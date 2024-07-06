@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Notes Generator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <style>
+    body {
+      
+      background-color: rgb(60, 60, 60);
+      height: fit-content;
+      width: 500px;
+      font-family: Arial, sans-serif;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+    .note {
+      border: 1px solid #5d5d5d;
+      padding: 10px;
+      margin-bottom: 10px;
+      background: rgb(88, 88, 88);
+      position: relative;
+      border-radius: 5px;
+    }
+    .note textarea {
+      width: calc(100% - 20px);
+      padding: 5px;
+      margin-top: 5px;
+      height: 70px;
+      resize: none;
+      background-color: #ebebea;
+      font-family: "Noto Sans", sans-serif;
+      border: 0cm;
+      margin-bottom: 5px;
+    }
+    .delete-button {
+      cursor: pointer;
+      color: white;
+      background-color: rgb(244, 43, 43);
+      height: 5px;
+      width: 20px;
+      padding-top: 2px;
+      padding-bottom: 2px;
+      padding-left: 5px;
+      padding-right: 5px;
+      border-radius: 50%;
+    }
+    #heading {
+      color: rgb(236, 235, 235);
+      
+    }
+    #heading2{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color: rgb(236, 235, 235);
+    }
+    #addNote{
+      background: rgb(88, 88, 88);
+      color: #ede8f5;
+      padding: 2px;
+      padding-left: 5px;
+      padding-right: 5px;
+      font-weight: 900;
+      border: 1px solid black;
+      cursor: pointer;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="heading">Welcome to the <span id="heading2">'Make Notes'</span></h1>
+  <div id="notes"></div>
+  <button id="addNote">Add Note</button>
+  <script src="popup.js"></script>
+</body>
+</html>

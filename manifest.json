@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "Make Notes",
+    "version": "1",
+    "description": "Create notes from highlighted text without switching tabs.",
+    "permissions": [
+      "storage",
+      "contextMenus",
+      "activeTab"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      },
+      "default_title":"Make Notes"
+    },
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+  
