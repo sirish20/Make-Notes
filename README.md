@@ -26,7 +26,7 @@ To install the Make Notes Chrome extension:
    ```sh
    git clone https://github.com/sirish20/Make-Notes.git
    cd Make-Notes
-
+   ```
 ## Contact
 
 For any questions or feedback, please contact **shubhamsangale20032003@gmail.com**
